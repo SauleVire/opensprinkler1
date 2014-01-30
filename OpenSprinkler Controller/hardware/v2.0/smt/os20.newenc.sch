@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.254" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="mm"/>
+<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -20202,22 +20202,22 @@ by exp-project-lbr.ulp</description>
 <wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
-<pin name="D/C" x="0" y="12.7" length="middle" rot="R270"/>
-<pin name="D/C'" x="0" y="-12.7" length="middle" rot="R90"/>
-<pin name="DN" x="2.54" y="12.7" length="middle" rot="R270"/>
-<pin name="DN'" x="2.54" y="-12.7" length="middle" rot="R90"/>
-<pin name="GND" x="-7.62" y="12.7" length="middle" rot="R270"/>
-<pin name="GND'" x="-7.62" y="-12.7" length="middle" rot="R90"/>
-<pin name="LED" x="7.62" y="12.7" length="middle" rot="R270"/>
-<pin name="LED'" x="7.62" y="-12.7" length="middle" rot="R90"/>
-<pin name="RST" x="-2.54" y="12.7" length="middle" rot="R270"/>
-<pin name="RST'" x="-2.54" y="-12.7" length="middle" rot="R90"/>
-<pin name="SCE" x="-5.08" y="12.7" length="middle" rot="R270"/>
-<pin name="SCE'" x="-5.08" y="-12.7" length="middle" rot="R90"/>
-<pin name="SCLK" x="5.08" y="12.7" length="middle" rot="R270"/>
-<pin name="SCLK'" x="5.08" y="-12.7" length="middle" rot="R90"/>
-<pin name="VCC" x="-10.16" y="12.7" length="middle" rot="R270"/>
-<pin name="VCC'" x="-10.16" y="-12.7" length="middle" rot="R90"/>
+<pin name="CLK" x="0" y="12.7" length="middle" rot="R270"/>
+<pin name="CLK'" x="0" y="-12.7" length="middle" rot="R90"/>
+<pin name="VCC" x="2.54" y="12.7" length="middle" rot="R270"/>
+<pin name="VCC'" x="2.54" y="-12.7" length="middle" rot="R90"/>
+<pin name="CE" x="-7.62" y="12.7" length="middle" rot="R270"/>
+<pin name="CE'" x="-7.62" y="-12.7" length="middle" rot="R90"/>
+<pin name="GND" x="7.62" y="12.7" length="middle" rot="R270"/>
+<pin name="GND'" x="7.62" y="-12.7" length="middle" rot="R90"/>
+<pin name="DIN" x="-2.54" y="12.7" length="middle" rot="R270"/>
+<pin name="DIN'" x="-2.54" y="-12.7" length="middle" rot="R90"/>
+<pin name="DC" x="-5.08" y="12.7" length="middle" rot="R270"/>
+<pin name="DC'" x="-5.08" y="-12.7" length="middle" rot="R90"/>
+<pin name="BL" x="5.08" y="12.7" length="middle" rot="R270"/>
+<pin name="BL'" x="5.08" y="-12.7" length="middle" rot="R90"/>
+<pin name="RST" x="-10.16" y="12.7" length="middle" rot="R270"/>
+<pin name="RST'" x="-10.16" y="-12.7" length="middle" rot="R90"/>
 <text x="-15.24" y="-7.62" size="1.27" layer="95" rot="R90">&gt;NAME</text>
 <text x="-15.24" y="2.54" size="1.27" layer="96" rot="R90">&gt;VALUE</text>
 </symbol>
@@ -20230,22 +20230,22 @@ by exp-project-lbr.ulp</description>
 <devices>
 <device name="" package="CELLPHONE_NOKIA_5100_SPARKFUN">
 <connects>
-<connect gate="G$1" pin="D/C" pad="P$5"/>
-<connect gate="G$1" pin="D/C'" pad="P$13"/>
-<connect gate="G$1" pin="DN" pad="P$6"/>
-<connect gate="G$1" pin="DN'" pad="P$14"/>
-<connect gate="G$1" pin="GND" pad="P$2"/>
-<connect gate="G$1" pin="GND'" pad="P$10"/>
-<connect gate="G$1" pin="LED" pad="P$8"/>
-<connect gate="G$1" pin="LED'" pad="P$16"/>
-<connect gate="G$1" pin="RST" pad="P$4"/>
-<connect gate="G$1" pin="RST'" pad="P$12"/>
-<connect gate="G$1" pin="SCE" pad="P$3"/>
-<connect gate="G$1" pin="SCE'" pad="P$11"/>
-<connect gate="G$1" pin="SCLK" pad="P$7"/>
-<connect gate="G$1" pin="SCLK'" pad="P$15"/>
-<connect gate="G$1" pin="VCC" pad="P$1"/>
-<connect gate="G$1" pin="VCC'" pad="P$9"/>
+<connect gate="G$1" pin="BL" pad="P$7"/>
+<connect gate="G$1" pin="BL'" pad="P$15"/>
+<connect gate="G$1" pin="CE" pad="P$2"/>
+<connect gate="G$1" pin="CE'" pad="P$10"/>
+<connect gate="G$1" pin="CLK" pad="P$5"/>
+<connect gate="G$1" pin="CLK'" pad="P$13"/>
+<connect gate="G$1" pin="DC" pad="P$3"/>
+<connect gate="G$1" pin="DC'" pad="P$11"/>
+<connect gate="G$1" pin="DIN" pad="P$4"/>
+<connect gate="G$1" pin="DIN'" pad="P$12"/>
+<connect gate="G$1" pin="GND" pad="P$8"/>
+<connect gate="G$1" pin="GND'" pad="P$16"/>
+<connect gate="G$1" pin="RST" pad="P$1"/>
+<connect gate="G$1" pin="RST'" pad="P$9"/>
+<connect gate="G$1" pin="VCC" pad="P$6"/>
+<connect gate="G$1" pin="VCC'" pad="P$14"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -20636,7 +20636,7 @@ SMT- SWCH-08247</description>
 <instance part="RN4" gate="C" x="-12.7" y="81.28" rot="R90"/>
 <instance part="IC1" gate="G$1" x="26.67" y="152.4"/>
 <instance part="U1" gate="G$1" x="187.96" y="86.36"/>
-<instance part="U$2" gate="G$1" x="89.916" y="201.168" rot="R270"/>
+<instance part="U$2" gate="G$1" x="92.71" y="198.12" rot="R270"/>
 <instance part="S1" gate="S" x="-20.32" y="223.52"/>
 <instance part="S2" gate="S" x="-7.62" y="223.52"/>
 <instance part="S3" gate="S" x="5.08" y="223.52"/>
@@ -20791,6 +20791,10 @@ SMT- SWCH-08247</description>
 <wire x1="121.92" y1="67.31" x2="121.92" y2="69.85" width="0.1524" layer="91"/>
 <junction x="121.92" y="67.31"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="GND"/>
+<wire x1="105.41" y1="190.5" x2="111.76" y2="190.5" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="RESET" class="0">
 <segment>
@@ -20943,6 +20947,10 @@ SMT- SWCH-08247</description>
 <wire x1="-12.7" y1="86.36" x2="-8.89" y2="86.36" width="0.1524" layer="91"/>
 <junction x="-12.7" y="86.36"/>
 <junction x="-8.89" y="86.36"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="VCC"/>
+<wire x1="105.41" y1="195.58" x2="111.76" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TCT" class="0">
@@ -21494,6 +21502,31 @@ SMT- SWCH-08247</description>
 <pinref part="U1" gate="G$1" pin="PB3(MOSI/OC2)"/>
 <wire x1="213.36" y1="58.42" x2="218.44" y2="58.42" width="0.1524" layer="91"/>
 <label x="215.9" y="58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="CE"/>
+<wire x1="105.41" y1="205.74" x2="109.22" y2="205.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="DC"/>
+<wire x1="105.41" y1="203.2" x2="109.22" y2="203.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="DIN"/>
+<wire x1="105.41" y1="200.66" x2="109.22" y2="200.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="V$" class="0">
+<segment>
+<wire x1="105.41" y1="208.28" x2="109.22" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="RST"/>
+<label x="106.68" y="208.28" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
